@@ -47,7 +47,16 @@ jobs:
           if ! git diff --quiet -- data/history.json; then
             git add data/history.json
             git commit -m "chore: actualizar historial de precios [skip ci]"
-            git push
+            # Por si alguien hizo push manual mientras corria el workflow (condicion de
+            # carrera): reintenta con rebase antes de dar el push por fallido.
+            for i in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "Push rechazado, reintentando con rebase (intento $i)..."
+              git fetch origin main
+              git rebase origin/main
+            done
           else
             echo "Sin cambios en el historial."
           fi
