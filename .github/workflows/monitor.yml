@@ -1,0 +1,53 @@
+name: Flight Price Monitor
+
+on:
+  schedule:
+    # 13:00 UTC = 08:00 hora de Colombia (UTC-5). Ajusta si cambias de husu horario.
+    - cron: "0 13 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  check-price:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm install
+
+      - run: npm run build
+
+      - name: Run monitor
+        env:
+          IGNAV_API_KEY: ${{ secrets.IGNAV_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_FROM: ${{ vars.EMAIL_FROM }}
+          EMAIL_TO: ${{ vars.EMAIL_TO }}
+          ORIGIN: ${{ vars.ORIGIN }}
+          DESTINATION: ${{ vars.DESTINATION }}
+          DEPARTURE_DATE: ${{ vars.DEPARTURE_DATE }}
+          RETURN_DATE: ${{ vars.RETURN_DATE }}
+          MARKET: ${{ vars.MARKET }}
+          ALERT_DROP_PERCENT: ${{ vars.ALERT_DROP_PERCENT }}
+          ALERT_WINDOW_DAYS: ${{ vars.ALERT_WINDOW_DAYS }}
+          MIN_HISTORY_FOR_ALERTS: ${{ vars.MIN_HISTORY_FOR_ALERTS }}
+          ALERT_ABSOLUTE_THRESHOLD: ${{ vars.ALERT_ABSOLUTE_THRESHOLD }}
+        run: node dist/index.js
+
+      - name: Commit historial actualizado
+        run: |
+          git config user.name "flight-price-monitor-bot"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet -- data/history.json; then
+            git add data/history.json
+            git commit -m "chore: actualizar historial de precios [skip ci]"
+            git push
+          else
+            echo "Sin cambios en el historial."
+          fi

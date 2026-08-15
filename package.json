@@ -1,0 +1,21 @@
+{
+  "name": "flight-prices-scraper",
+  "version": "1.0.0",
+  "description": "Monitorea el precio de un vuelo, guarda historial y envia alertas por email cuando el precio cae de forma anormal.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "resend": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
