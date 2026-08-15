@@ -26,7 +26,7 @@ El reporte diario (con tendencia y estadisticas) se envia siempre, dispare o no 
 > Nota: originalmente este proyecto iba a usar Amadeus Self-Service, pero Amadeus
 > **decomisiono ese portal el 17 de julio de 2026**. Se reemplazo por
 > [Ignav](https://ignav.com), que trae datos reales verificados (confirmado con pruebas
-> manuales para CTG-BOG: devuelve ~29 itinerarios con precios en COP).
+> manuales para rutas domesticas de Colombia: devuelve itinerarios reales con precios en COP).
 
 1. Registrate gratis en https://ignav.com (sin tarjeta de credito).
 2. Copia tu **API key** -> `IGNAV_API_KEY`.
