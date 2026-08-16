@@ -26,5 +26,33 @@
       "arrivalTimeLocal": "16:40",
       "stops": 0
     }
+  },
+  {
+    "date": "2026-08-16",
+    "timestamp": "2026-08-16T13:27:38.789Z",
+    "price": 345900,
+    "currency": "COP",
+    "outbound": {
+      "price": 173450,
+      "currency": "COP",
+      "airline": "LATAM",
+      "flightCode": "LA4119",
+      "departureAirport": "CTG",
+      "departureTimeLocal": "04:30",
+      "arrivalAirport": "BOG",
+      "arrivalTimeLocal": "06:00",
+      "stops": 0
+    },
+    "inbound": {
+      "price": 172450,
+      "currency": "COP",
+      "airline": "Avianca",
+      "flightCode": "AV9758",
+      "departureAirport": "BOG",
+      "departureTimeLocal": "15:10",
+      "arrivalAirport": "CTG",
+      "arrivalTimeLocal": "16:40",
+      "stops": 0
+    }
   }
 ]
