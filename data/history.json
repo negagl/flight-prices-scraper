@@ -54,5 +54,33 @@
       "arrivalTimeLocal": "16:40",
       "stops": 0
     }
+  },
+  {
+    "date": "2026-08-17",
+    "timestamp": "2026-08-17T13:36:28.230Z",
+    "price": 331030,
+    "currency": "COP",
+    "outbound": {
+      "price": 173450,
+      "currency": "COP",
+      "airline": "LATAM",
+      "flightCode": "LA4119",
+      "departureAirport": "CTG",
+      "departureTimeLocal": "04:30",
+      "arrivalAirport": "BOG",
+      "arrivalTimeLocal": "06:00",
+      "stops": 0
+    },
+    "inbound": {
+      "price": 157580,
+      "currency": "COP",
+      "airline": "JetSMART",
+      "flightCode": "JA5166",
+      "departureAirport": "BOG",
+      "departureTimeLocal": "16:10",
+      "arrivalAirport": "CTG",
+      "arrivalTimeLocal": "17:47",
+      "stops": 0
+    }
   }
 ]
