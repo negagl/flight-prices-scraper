@@ -110,5 +110,33 @@
       "arrivalTimeLocal": "17:47",
       "stops": 0
     }
+  },
+  {
+    "date": "2026-08-19",
+    "timestamp": "2026-08-19T13:40:38.515Z",
+    "price": 357800,
+    "currency": "COP",
+    "outbound": {
+      "price": 179400,
+      "currency": "COP",
+      "airline": "LATAM",
+      "flightCode": "LA4119",
+      "departureAirport": "CTG",
+      "departureTimeLocal": "04:30",
+      "arrivalAirport": "BOG",
+      "arrivalTimeLocal": "06:00",
+      "stops": 0
+    },
+    "inbound": {
+      "price": 178400,
+      "currency": "COP",
+      "airline": "LATAM",
+      "flightCode": "LA4114",
+      "departureAirport": "BOG",
+      "departureTimeLocal": "17:00",
+      "arrivalAirport": "CTG",
+      "arrivalTimeLocal": "18:30",
+      "stops": 0
+    }
   }
 ]
