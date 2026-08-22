@@ -194,5 +194,33 @@
       "arrivalTimeLocal": "08:03",
       "stops": 0
     }
+  },
+  {
+    "date": "2026-08-22",
+    "timestamp": "2026-08-22T13:28:24.926Z",
+    "price": 360253,
+    "currency": "COP",
+    "outbound": {
+      "price": 179400,
+      "currency": "COP",
+      "airline": "LATAM",
+      "flightCode": "LA4119",
+      "departureAirport": "CTG",
+      "departureTimeLocal": "04:30",
+      "arrivalAirport": "BOG",
+      "arrivalTimeLocal": "06:00",
+      "stops": 0
+    },
+    "inbound": {
+      "price": 180853,
+      "currency": "COP",
+      "airline": "Wingo",
+      "flightCode": "P57216",
+      "departureAirport": "BOG",
+      "departureTimeLocal": "06:30",
+      "arrivalAirport": "CTG",
+      "arrivalTimeLocal": "08:03",
+      "stops": 0
+    }
   }
 ]
