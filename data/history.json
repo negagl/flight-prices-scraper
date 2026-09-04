@@ -558,5 +558,33 @@
       "arrivalTimeLocal": "20:36",
       "stops": 1
     }
+  },
+  {
+    "date": "2026-09-04",
+    "timestamp": "2026-09-04T16:42:33.269Z",
+    "price": 305800,
+    "currency": "COP",
+    "outbound": {
+      "price": 151200,
+      "currency": "COP",
+      "airline": "JetSMART",
+      "flightCode": "JA5153",
+      "departureAirport": "CTG",
+      "departureTimeLocal": "06:22",
+      "arrivalAirport": "BOG",
+      "arrivalTimeLocal": "07:55",
+      "stops": 0
+    },
+    "inbound": {
+      "price": 154600,
+      "currency": "COP",
+      "airline": "JetSMART",
+      "flightCode": "JA5166",
+      "departureAirport": "BOG",
+      "departureTimeLocal": "16:10",
+      "arrivalAirport": "CTG",
+      "arrivalTimeLocal": "17:47",
+      "stops": 0
+    }
   }
 ]
