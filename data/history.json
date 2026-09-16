@@ -334,5 +334,33 @@
       "arrivalTimeLocal": "21:22",
       "stops": 0
     }
+  },
+  {
+    "date": "2026-09-16",
+    "timestamp": "2026-09-16T17:26:39.204Z",
+    "price": 340075,
+    "currency": "COP",
+    "outbound": {
+      "price": 167500,
+      "currency": "COP",
+      "airline": "JetSMART",
+      "flightCode": "JA5161",
+      "departureAirport": "CTG",
+      "departureTimeLocal": "18:54",
+      "arrivalAirport": "BOG",
+      "arrivalTimeLocal": "20:30",
+      "stops": 0
+    },
+    "inbound": {
+      "price": 172575,
+      "currency": "COP",
+      "airline": "Wingo",
+      "flightCode": "P57520",
+      "departureAirport": "BOG",
+      "departureTimeLocal": "00:45",
+      "arrivalAirport": "CTG",
+      "arrivalTimeLocal": "02:17",
+      "stops": 0
+    }
   }
 ]
