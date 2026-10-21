@@ -1286,5 +1286,33 @@
       "arrivalTimeLocal": "07:42",
       "stops": 0
     }
+  },
+  {
+    "date": "2026-10-21",
+    "timestamp": "2026-10-21T17:52:31.543Z",
+    "price": 423960,
+    "currency": "COP",
+    "outbound": {
+      "price": 172970,
+      "currency": "COP",
+      "airline": "JetSMART",
+      "flightCode": "JA5165",
+      "departureAirport": "CTG",
+      "departureTimeLocal": "06:59",
+      "arrivalAirport": "BOG",
+      "arrivalTimeLocal": "08:35",
+      "stops": 0
+    },
+    "inbound": {
+      "price": 250990,
+      "currency": "COP",
+      "airline": "Avianca",
+      "flightCode": "AV8556",
+      "departureAirport": "BOG",
+      "departureTimeLocal": "19:35",
+      "arrivalAirport": "CTG",
+      "arrivalTimeLocal": "21:05",
+      "stops": 0
+    }
   }
 ]
