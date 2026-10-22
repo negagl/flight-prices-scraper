@@ -1314,5 +1314,33 @@
       "arrivalTimeLocal": "21:05",
       "stops": 0
     }
+  },
+  {
+    "date": "2026-10-22",
+    "timestamp": "2026-10-22T17:50:24.200Z",
+    "price": 429795,
+    "currency": "COP",
+    "outbound": {
+      "price": 178805,
+      "currency": "COP",
+      "airline": "Wingo",
+      "flightCode": "P57235",
+      "departureAirport": "CTG",
+      "departureTimeLocal": "20:11",
+      "arrivalAirport": "BOG",
+      "arrivalTimeLocal": "21:40",
+      "stops": 0
+    },
+    "inbound": {
+      "price": 250990,
+      "currency": "COP",
+      "airline": "Avianca",
+      "flightCode": "AV8556",
+      "departureAirport": "BOG",
+      "departureTimeLocal": "19:35",
+      "arrivalAirport": "CTG",
+      "arrivalTimeLocal": "21:05",
+      "stops": 0
+    }
   }
 ]
