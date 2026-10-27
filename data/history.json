@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "date": "2026-10-27",
+    "timestamp": "2026-10-27T18:31:57.366Z",
+    "price": 181140,
+    "currency": "COP",
+    "outbound": {
+      "price": 181140,
+      "currency": "COP",
+      "airline": "LATAM",
+      "flightCode": "LA4120",
+      "departureAirport": "BOG",
+      "departureTimeLocal": "19:40",
+      "arrivalAirport": "CTG",
+      "arrivalTimeLocal": "21:10",
+      "stops": 0
+    }
+  }
+]
