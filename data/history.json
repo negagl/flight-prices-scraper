@@ -15,5 +15,22 @@
       "arrivalTimeLocal": "21:10",
       "stops": 0
     }
+  },
+  {
+    "date": "2026-10-28",
+    "timestamp": "2026-10-28T18:38:39.594Z",
+    "price": 168640,
+    "currency": "COP",
+    "outbound": {
+      "price": 168640,
+      "currency": "COP",
+      "airline": "JetSMART",
+      "flightCode": "JA5158",
+      "departureAirport": "BOG",
+      "departureTimeLocal": "05:00",
+      "arrivalAirport": "CTG",
+      "arrivalTimeLocal": "06:37",
+      "stops": 0
+    }
   }
 ]
