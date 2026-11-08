@@ -202,5 +202,22 @@
       "arrivalTimeLocal": "19:45",
       "stops": 0
     }
+  },
+  {
+    "date": "2026-11-08",
+    "timestamp": "2026-11-08T18:12:00.811Z",
+    "price": 208150,
+    "currency": "COP",
+    "outbound": {
+      "price": 208150,
+      "currency": "COP",
+      "airline": "Avianca",
+      "flightCode": "AV9790",
+      "departureAirport": "BOG",
+      "departureTimeLocal": "21:35",
+      "arrivalAirport": "CTG",
+      "arrivalTimeLocal": "23:05",
+      "stops": 0
+    }
   }
 ]
