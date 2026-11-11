@@ -270,5 +270,22 @@
       "arrivalTimeLocal": "18:45",
       "stops": 0
     }
+  },
+  {
+    "date": "2026-11-11",
+    "timestamp": "2026-11-11T19:59:45.683Z",
+    "price": 304900,
+    "currency": "COP",
+    "outbound": {
+      "price": 304900,
+      "currency": "COP",
+      "airline": "LATAM",
+      "flightCode": "LA4120",
+      "departureAirport": "BOG",
+      "departureTimeLocal": "19:40",
+      "arrivalAirport": "CTG",
+      "arrivalTimeLocal": "21:10",
+      "stops": 0
+    }
   }
 ]
