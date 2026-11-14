@@ -321,5 +321,22 @@
       "arrivalTimeLocal": "12:40",
       "stops": 0
     }
+  },
+  {
+    "date": "2026-11-14",
+    "timestamp": "2026-11-14T18:37:59.829Z",
+    "price": 432317,
+    "currency": "COP",
+    "outbound": {
+      "price": 432317,
+      "currency": "COP",
+      "airline": "Wingo",
+      "flightCode": "P57226",
+      "departureAirport": "BOG",
+      "departureTimeLocal": "15:00",
+      "arrivalAirport": "CTG",
+      "arrivalTimeLocal": "16:32",
+      "stops": 0
+    }
   }
 ]
